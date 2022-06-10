@@ -8,7 +8,7 @@ function showAutomaticSlides()
     {
         let i;
 
-        const slides = document.getElementsByClassName('slideshow-box-image');
+        const slides = document.getElementsByClassName('slideshow-box-image-auto');
 
         for (i = 0; i < slides.length; i++) 
             {
@@ -21,5 +21,5 @@ function showAutomaticSlides()
         
         slides[slideAutomaticIndex-1].style.display = 'block';  
 
-        setTimeout(showAutomaticSlides, 5000);
+        setTimeout(showAutomaticSlides, 3000);
     }
